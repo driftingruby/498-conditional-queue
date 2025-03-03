@@ -1,4 +1,7 @@
 <div>
   <h1 class="font-bold text-4xl">Welcome#index</h1>
   <p>Find me in app/views/welcome/index.html.erb</p>
+
+  <%= link_to "Queue 1 Job", root_path(jobs: 1), "data-turbo-prefetch": false %>
+  <%= link_to "Queue 10 Jobs", root_path(jobs: 10), "data-turbo-prefetch": false %>
 </div>

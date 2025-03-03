@@ -1,0 +1,1 @@
+GPU_QUEUE_SIZE = 3

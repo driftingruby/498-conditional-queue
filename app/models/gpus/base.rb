@@ -1,0 +1,2 @@
+class Gpus::Base
+end
